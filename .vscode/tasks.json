@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "makeEx00",
+			"type": "shell",
+			"command": "make",
+			"args": ["debug"],
+			"options": {
+				"cwd": "${workspaceFolder}/ex00"
+			},
+			"group": "build",
+			"problemMatcher": []
+		}
+	]
+}
