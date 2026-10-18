@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anton <anton@student.42.fr>                +#+  +:+       +#+        */
+/*   By: asadik <asadik@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/13 16:16:21 by anton             #+#    #+#             */
-/*   Updated: 2026/10/13 17:43:06 by anton            ###   ########.fr       */
+/*   Updated: 2026/10/18 14:22:28 by asadik           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
+
 int main(void) {
 	Zombie *zombie_horde = zombieHorde(55, std::string("Horatio"));
 	if (zombie_horde) {
