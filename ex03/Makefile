@@ -1,4 +1,4 @@
-NAME =		hi
+NAME =		violence
 SRCS =		main.cpp Weapon.cpp HumanA.cpp HumanB.cpp
 OBJS =		$(SRCS:.cpp=.o)
 DEPS =		$(OBJS:.o=.d)

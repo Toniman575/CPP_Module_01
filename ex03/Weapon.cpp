@@ -6,7 +6,7 @@
 /*   By: asadik <asadik@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 15:21:53 by asadik            #+#    #+#             */
-/*   Updated: 2026/10/17 16:09:37 by asadik           ###   ########.fr       */
+/*   Updated: 2026/10/18 12:05:37 by asadik           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,3 +19,7 @@ std::string const &Weapon::getType() const {
 void Weapon::setType(std::string type) {
 	Type = type;
 }
+
+Weapon::Weapon(std::string type) {
+	Type = type;
+};

@@ -22,6 +22,17 @@
 			},
 			"group": "build",
 			"problemMatcher": []
+		},
+		{
+			"label": "makeEx03",
+			"type": "shell",
+			"command": "make",
+			"args": ["debug"],
+			"options": {
+				"cwd": "${workspaceFolder}/ex03"
+			},
+			"group": "build",
+			"problemMatcher": []
 		}
 	]
 }
