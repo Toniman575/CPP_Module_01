@@ -33,6 +33,17 @@
 			},
 			"group": "build",
 			"problemMatcher": []
+		},
+		{
+			"label": "makeEx04",
+			"type": "shell",
+			"command": "make",
+			"args": ["debug"],
+			"options": {
+				"cwd": "${workspaceFolder}/ex04"
+			},
+			"group": "build",
+			"problemMatcher": []
 		}
 	]
 }
