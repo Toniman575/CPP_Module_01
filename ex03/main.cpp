@@ -6,14 +6,14 @@
 /*   By: asadik <asadik@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 15:56:08 by asadik            #+#    #+#             */
-/*   Updated: 2026/10/18 14:06:28 by asadik           ###   ########.fr       */
+/*   Updated: 2026/10/26 18:03:16 by asadik           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "HumanA.hpp"
 #include "HumanB.hpp"
 
-int main() {
+int main(int argc, char **argv) {
 	{
 		Weapon club = Weapon("crude spiked club");
 		HumanA bob("Bob", club);
